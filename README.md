@@ -37,3 +37,34 @@ mission-control-ai/
 | Menor que 30% | CRITICO |
 | Entre 30% e 59% | ATENCAO |
 | 60% ou mais | NORMAL |
+
+### Bateria
+| Condição | Classificação |
+|---|---|
+| Menor que 20% | CRITICO |
+| Entre 20% e 49% | ATENCAO |
+| 50% ou mais | NORMAL |
+
+### Oxigênio
+| Condição | Classificação |
+|---|---|
+| Menor que 80% | CRITICO |
+| Entre 80% e 89% | ATENCAO |
+| 90% ou mais | NORMAL |
+
+### Estabilidade
+| Condição | Classificação |
+|---|---|
+| Menor que 40% | CRITICO |
+| Entre 40% e 69% | ATENCAO |
+| 70% ou mais | NORMAL |
+
+## Pontuação de risco
+- NORMAL = 0 ponto
+- ATENCAO = 1 ponto
+- CRITICO = 2 pontos
+
+## Classificação dos ciclos
+- 0 a 2 pontos → MISSAO ESTAVEL
+- 3 a 5 pontos → MISSAO EM ATENCAO
+- 6 a 10
